@@ -1,0 +1,53 @@
+body
+{
+	background-color: black;
+}
+
+canvas
+{
+	background-color: white;
+}
+
+.undo
+{
+	background-color: white;
+	color: black;
+	font-size: 18px;
+	width: 130px;
+	border-radius: 25px;
+	text-decoration: none;
+	height: 20px;
+	margin-bottom: 10px;
+	margin-top: -10px;
+	transition: background-color 0.8s, color 0.8s;
+	-webkit-transition: background-color 0.8s, color 0.8s;
+	-moz-transition: background-color 0.8s, color 0.8s;
+	-o-transition: background-color 0.8s, color 0.8s;
+}
+
+.undo:hover
+{
+	background-color: #3c213c;
+	color: white;
+	cursor: pointer;
+}
+
+.undoMessage {
+    width:200px;
+    height:20px;
+    height:auto;
+    position:absolute;
+    left:50%;
+    margin-left:-100px;
+    bottom:10px;
+    background-color: #383838;
+    color: #F0F0F0;
+    font-family: Calibri;
+    font-size: 20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+}

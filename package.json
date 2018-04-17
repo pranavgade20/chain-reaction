@@ -1,0 +1,28 @@
+{
+  "name": "chain-reaction",
+  "version": "1.1.0",
+  "description": "A online multiplayer chain reaction game, made with a NodeJS backend.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranavgade20/chain-reaction.git"
+  },
+  "keywords": [
+    "Express",
+    "Game"
+  ],
+  "author": "Pranav Gade <pranavgade20@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pranavgade20/chain-reaction/issues"
+  },
+  "homepage": "https://github.com/pranavgade20/chain-reaction#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+  }
+}
